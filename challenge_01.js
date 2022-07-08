@@ -9,8 +9,10 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 "Die Summe der Zahlen ist: summe"
 */
 
-let zahl1 = parseInt(prompt("Geben Sie bitte Zahl 1"));
-let zahl2 = parseInt(prompt("Geben Sie bitte Zahl 2"));
+// let zahl1 = parseInt(prompt("Geben Sie bitte Zahl 1"));
+// let zahl2 = parseInt(prompt("Geben Sie bitte Zahl 2"));
+let zahl1 = Number(prompt("Geben Sie bitte Zahl 1"));
+let zahl2 = Number(prompt("Geben Sie bitte Zahl 2"));
 
 let summeZahlen = zahl1 + zahl2;
 
@@ -56,11 +58,11 @@ console.log("Die Summe der Zahlen ist: " + summeZahlen);
 /*********** Variante 3  ****************/
 // Kompakt, aber schlechter lesbar, unflexibel
 
-console.log
-(
-    "Die Summe ist: " + 
-   (
-    parseFloat(prompt("Bitte Zahl 1 eingeben")) +
-    parseFloat(prompt("Bitte Zahl 2 eingeben"))
-   ) 
-);
+// console.log
+// (
+//     "Die Summe ist: " + 
+//    (
+//     parseFloat(prompt("Bitte Zahl 1 eingeben")) +
+//     parseFloat(prompt("Bitte Zahl 2 eingeben"))
+//    ) 
+// );
